@@ -1,6 +1,8 @@
-const express = require("express")
-const uuid = require("uuid")
-const cors = require("cors")
+import express from "express"
+import cors from "cors"
+import mongoose from "mongoose"
+
+import User from "./models/User.js"
 
 const port = 3001
 const app = express()
@@ -24,17 +26,18 @@ const checkUserId = (request, response, next) => {
     next()
 }
 
-app.get('/users', (request, response) => {
-    return response.json(users)
+app.get('/users', async (request, response) => {
+    const user = await User.find()
+
+    return response.json(user)
 })
 
-app.post('/users', (request, response) => {
-    const { name, age } = request.body
-    const user = { id: uuid.v4(), name, age }
+app.post('/users', async (request, response) => {
+    const user = request.body
+    
+    const newUser = await User.create(user)
 
-    users.push(user)
-
-    return response.status(201).json(user)
+    return response.status(201).json(newUser)
 })
 
 app.put('/users/:id', checkUserId, (request, response) => {
@@ -57,6 +60,10 @@ app.delete('/users/:id', checkUserId, (request, response) => {
     return response.status(204).json()
 
 })
+
+mongoose.connect('mongodb+srv://marcioramires:D16m4a84@cluster0.5pzx8q3.mongodb.net/?retryWrites=true&w=majority')
+    .then(() => console.log("Banco de dados conectado!"))
+    .catch(() => console.log("NÃO conectou o banco de dados!"))
 
 app.listen(port, () => {
     console.log(`🚀 Server started on port ${port}`)
