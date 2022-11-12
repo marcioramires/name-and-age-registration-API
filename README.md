@@ -1,4 +1,4 @@
-# API Para Registro de Usuários
+# API RESTful Para Registro de Usuários
 
 Projeto desenvolvido em Javascript em ambiente Node.js, para interface com o back-end com registro de dados de usuários.
 #
@@ -8,7 +8,7 @@ img
 #
 # 🚀 Tecnologias:
  
-Esse projeto foi desenvolvido com as seguintes tecnologias, ferramentas e bibliotecas:
+Foram utilizadas com as seguintes tecnologias, ferramentas e bibliotecas:
 
 - Node.js
 - Javascript
