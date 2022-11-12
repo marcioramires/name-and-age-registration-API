@@ -2,7 +2,7 @@
 
 Projeto desenvolvido em Javascript em ambiente Node.js, para interface com o back-end com registro de dados de usuários.
 #
-#![Screenshot 2022-11-12 143929](https://user-images.githubusercontent.com/113479357/201487313-35d08501-c803-4408-9d7d-a941e4957c52.png)
+![Screenshot 2022-11-12 143929](https://user-images.githubusercontent.com/113479357/201487313-35d08501-c803-4408-9d7d-a941e4957c52.png)
 # 🚀 Tecnologias:
  
 Foram utilizadas com as seguintes tecnologias, ferramentas e bibliotecas:
