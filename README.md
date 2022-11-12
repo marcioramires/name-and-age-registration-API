@@ -22,7 +22,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias, ferramentas e biblio
 # 💻 Funcionalidades:
 
 - Conecta rotas de consulta, alteração, criação e deleção.
-- Conexão com banco de dados em MongoDB.
+- Conexão de todas as rotas com banco de dados em MongoDB.
 - Utilização do Mongoose para conexão com o banco de dados no back-end.
 - A interface front-end pode ser consultado no projeto [name-and-age-registration-webapp](https://github.com/marcioramires/name-and-age-registration-web-app).
 #
