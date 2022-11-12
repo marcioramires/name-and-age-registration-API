@@ -1,6 +1,6 @@
 # API Para Registro de Usuários
 
-Projeto desenvolvido em Javascript no ambiente Node.js, para interface com o back-end para registro de dados de usuários.
+Projeto desenvolvido em Javascript em ambiente Node.js, para interface com o back-end com registro de dados de usuários.
 #
 img
 #
