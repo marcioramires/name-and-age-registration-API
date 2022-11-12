@@ -2,10 +2,7 @@
 
 Projeto desenvolvido em Javascript em ambiente Node.js, para interface com o back-end com registro de dados de usuários.
 #
-img
-#
-img
-#
+#![Screenshot 2022-11-12 143929](https://user-images.githubusercontent.com/113479357/201487313-35d08501-c803-4408-9d7d-a941e4957c52.png)
 # 🚀 Tecnologias:
  
 Foram utilizadas com as seguintes tecnologias, ferramentas e bibliotecas:
@@ -24,9 +21,8 @@ Foram utilizadas com as seguintes tecnologias, ferramentas e bibliotecas:
 - Conecta rotas de consulta, alteração, criação e deleção.
 - Conexão de todas as rotas com banco de dados em MongoDB.
 - Utilização do Mongoose para conexão com o banco de dados no back-end.
-- A interface front-end pode ser consultado no projeto [name-and-age-registration-webapp](https://github.com/marcioramires/name-and-age-registration-web-app).
 #
 #
 # 😎 Deploy:
-- Para verificação da API em funcionamento, checar o deploy do front-end desse sistema: [name-and-age-registration-webapp](https://github.com/marcioramires/name-and-age-registration-web-app).
+- [name-and-age-registration-webapp]([https://github.com/marcioramires/name-and-age-registration-web-app](https://name-and-age-registration-web-app-mr.netlify.app/)).
 #
