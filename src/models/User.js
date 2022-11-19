@@ -3,11 +3,11 @@ import mongoose from 'mongoose'
 const userSchema = new mongoose.Schema({
     name: {
         type: String,
-        required: true
+        // required: true
     },
     age: {
         type: Number,
-        required: true
+        // required: true
     },
     createdAt: {
         type: Date,
@@ -15,4 +15,4 @@ const userSchema = new mongoose.Schema({
     }
 })
 
-export default mongoose.model("User", userSchema)
+export default mongoose.model('User', userSchema)

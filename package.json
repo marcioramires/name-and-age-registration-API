@@ -2,9 +2,9 @@
   "name": "name-and-age-registration-api",
   "version": "1.0.0",
   "type": "module",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "dev": "nodemon"
+    "dev": "nodemon src/index.js"
   },
   "author": "MT",
   "license": "MIT",
